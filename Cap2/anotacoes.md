@@ -66,5 +66,57 @@ Também chamado de diagrama de blocos.
 
 **1.** Resolver um problema ou executar uma tarefa.
 
-**2.** 
+**2.** Aplicação: Classificação de E-mails como "Spam" ou "Não Spam"
+
+Finalidade:
+A finalidade dessa aplicação é automatizar o processo de triagem de e-mails, distinguindo entre e-mails indesejados (spam) e e-mails legítimos (não spam). Isso ajuda a manter a caixa de entrada dos usuários livre de mensagens não solicitadas, economizando tempo e melhorando a experiência do usuário.
+
+Como os algoritmos são utilizados:
+
+Conjunto de Treinamento: Um conjunto de treinamento é preparado, contendo exemplos de e-mails rotulados como "spam" ou "não spam".
+
+Extração de Recursos: Algoritmos podem ser usados para extrair características relevantes dos e-mails, como palavras-chave, frequência de termos, presença de links, entre outros.
+
+Treinamento do Modelo: Com base no conjunto de treinamento e nas características extraídas, um algoritmo de aprendizado de máquina, como o Naive Bayes, SVM (Support Vector Machine) ou outros, é treinado para classificar automaticamente os e-mails.
+
+Classificação em Tempo Real: Uma vez treinado, o modelo pode ser aplicado em tempo real para classificar novos e-mails que chegam à caixa de entrada do usuário como "spam" ou "não spam".
+
+Essa aplicação simples de algoritmos demonstra como a automação através de aprendizado de máquina pode ser utilizada para resolver problemas do dia a dia, melhorando a eficiência e a organização pessoal. O usuário se beneficia ao ter menos distrações na caixa de entrada, concentrando-se apenas nos e-mails importantes.
+
+**3.** Fluxograma: utiliza de símbolos gráficos para representar ações ou instruções a serem seguidas.
+Também chamado de diagrama de blocos.
+
+**4.** As condições são avaliadas e existe uma operação para o resultado verdadei e outra para o resultado falso. Após a apresentação das mensagens, o fluxo deve seguir para o final da execução.
+
+**5** 
+a) Abrir o navegador.
+b) Digitar o endereço do site do banco.
+c) Digitar o nome do usuário.
+d) Confirmar ou digitar o nome do usuário.
+e) Preencher dados (números de agência e conta)
+f) inserir a senha.
+g) Clicar no botão "OK" de acesso.
+h) Selecionar a opção de saldo.
+i) Fechar o navegador.
+
+**6** 
+a) pegue uma lâmpada nova.
+b) suba a escada.
+c) retire a lâmpada velha.
+d) coloque a lâmpada nova.
+e) desça da escada.
+
+**7** 
+a) 2 x 4 = 8
+b) -4 + 8 = 4
+c) 5 + 4 = 9
+
+**8** 
+a) 2 x 4 = 8
+b) -4 = 4
+c) + 5 = 9
+
+**9** 
+a) 1 -> 2 -> 4 -> 7 -> 9 -> 10 -> 12 = 12.
+b) 1 -> 3 -> 6 -> 8 -> 11 -> 12.
 
