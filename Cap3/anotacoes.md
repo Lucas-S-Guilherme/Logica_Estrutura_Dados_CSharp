@@ -94,4 +94,94 @@ Também são chamadas de *variáveis somente de leitura*
 ## 3.5 Operadores
 Utilizados para representar expressões de cálculo, comparação, condição e atribuição.
 
+### 3.5.1 Operadores de Atribuoção
+
+ Utilizados para expressar o armazenamento de um valor, em uma variável. Pode ser predefinido ou ser o resultado de um processamento.
+ Na notação algorítmica deste livro é utilizada a seta no sentido esquerdo "<-".
+ Em C# utiliza-se o sinal de igual "=". 
+
+### 3.5.2 Operadores Aritméticos
+
+| Operador | Notação Algorítmica | Notação C# |
+| -------- | ------------------- | ---------- |
+| Adição | + | + |
+| Subtração | - | - |
+| Multiplicação | * | * |
+| Divisão | / | / |
+| Módulo | mod | % |
+| Incremento | i = i + 1 | ++ |
+| Decremento | i = i - 1 | -- |
+| Adição e atribuição | i = i + x | ++ |
+| Subtração e atribuição | i = i - X | -- |
+| Multiplicação e atribuição | i = i * x | *= |
+| Divisão e Atribuição | i = i / x | /= |
+| Módulo e atribuição | i = i mod x | %= |
+
+Alguns operadores aritméticos são representados por funções matemáticas, como no caso da exponenciação, em que o C# utiliza a classe math e o método pow "math.pow()".
+
+### 3.5.3 Operacdores Relacionais
+
+Os operadores relacionais são utilizados para estabelecer uma relação de comparação entre valores ou expressões. O resultado desta comparação é sempre um valor lógico (booleano) *verdadeiro* ou *falso*.
+
+| Operador | Representação Algorítmica | Notação C# |
+| -------- | ------------------- | ---------- |
+| Maior que | > | > |
+| Maior ou igual | >= | >= |
+| Menor que | < | < |
+| Menor ou igual | <= | <= |
+| Igual a | = | == |
+| Diferente de | <> | != |
+
+### 3.5.4 Operadores Lógicos
+
+São utilizados para concatenar ou associar expressões que estabelecem uma relação de comparação entre valores. O resultado destas expressões é sempre um valor lógico, verdadeiro ou falso.
+
+| Operador | Representação Algorítmica | Notação C# |
+| -------- | ------------------- | ---------- |
+| E | .e. | && |
+| OU | .ou. | \|| |
+| NÃO | .não. | ! |
+
+Para a operação lógica E, podemos utilizar em C#, o operador &, que tem o mesmo
+objetivo, porém faz a operação bit a bit. O operador && é mais eficiente, pois já determina
+o resultado, avaliando o primeiro operando. Por exemplo, em a && b, se a tem valor falso,
+não há necessidade de avaliar o segundo operando, visto que o resultado será falso. O mesmo ocorre com o operador OU, que pode utilizar o símbolo | (uma barra vertical). Por este
+motivo, os operadores & & e \| | são chamados de short-circuit.
+
+| a | b | a \&& b | a \|\| b | !a |
+| ---------- | ---------- | ---------- | ---------- | ---------- |
+| falso | falso | falso | falso | verdadeiro |
+| falso | verdadeiro | falso | verdadeiro | verdadeiro |
+| verdadeiro | falso | falso | verdadeiro | falso |
+| verdadeiro | verdadeiro | verdadeiro | verdadeiro | falso |
+
+**Operador .e.** só será verdadeiro somente se ambas as variáveis associadas assumirem o resultado verdadeiro.
+**Operador .ou.** só será verdadeiro, se, pelo menos, uma das expressões associadas assumir o resultado verdadeiro.
+
+### 3.5.5 Precedência dos operadores
+
+Quando, em um algoritmo ou programa, uma expressão envolve mais de um operador, a ordem de avaliação segue a precedência dos operadores e, no caso das operações aritméticas, deve ser avaliada sempre a ordem da esquerda para a direita, quando calculam-se:
+
+lº) os fatoriais;
+2º) as funções, as potências e as raízes quadradas;
+3º) as multiplicações e divisões;
+4º) as adições e subtrações.
+
+Para impor a realização de uma operação ou de um conjunto de operações, em uma ordem diferente do padrão de precedência, podemos utilizar os parênteses ou colchetes.
+
+Apesar dos exemplos de precedência, com o uso de operadores aritméticos, devemos ter
+em mente que ela também se aplica a operações relacionais e lógicas. Logo, após a execução
+das operações aritméticas, devem ser realizadas as relacionais e, em seguida, as operações
+lógicas.
+
+## 3.6 Exercícios para fixação
+
+**1.**
+a) falso.
+b) verdadeiro.
+c) verdadeiro.
+d) falso.
+e) 
+
+
 
