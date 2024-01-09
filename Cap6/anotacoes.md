@@ -110,8 +110,146 @@ meses[11] = "dezembro";
 Em geral, um vetor pode ser indexado com qualquer expressão, cujo valor de retorno
 seja um número inteiro, podendo ser uma simples constante, uma variável, ou, então, uma
 expressão contendo operadores aritméticos, constantes e variáveis. Desta forma, um vetor
-não precisa terseu tamanho previamente definido pelo programador, podendo ser calculado pelo programa em tempo de execução.
+não precisa ter seu tamanho previamente definido pelo programador, podendo ser calculado pelo programa em tempo de execução.
 
 ```
 int tamanho = ... ; // algum cálculo para tamanho
 int[] n = new int [tamanho];
+```
+
+Fazer o uso do método **length** é mais adequado para operações com o vetor que necessite do tamanho total de vetor.
+
+O tratamento de erros é importante, porque se ocorrer algum erro na execuçao das instruções.
+
+### 6.2.3 Operações em vetores
+
+**Pseudocódigo**
+
+![Alt text](image-3.png)
+![Alt text](image-4.png)
+
+**Fluxograma**
+
+![Alt text](image-2.png)
+
+
+## 6.3 Conceito de Matrizes
+
+Estruturas indexadas, que necessitam de mais que um índice para identificar um de seus
+elementos, são chamadas de matrizes de dimensão n, sendo que n representa o número de
+índices requeridos.
+
+Uma matriz de dimensão 2, portanto, exige dois índices para identificar
+um elemento na sua estrutura. 
+
+Supondo um gráfico bidimensional de uma curva, sendo necessário guardar posições
+dos pontos desta em coordenadas x e y, uma maneira possível de armazenar, em memória,
+o total dos pontos desta curva, seria na forma de uma matriz de dimensão 2.
+
+### 6.3.1 Declaração
+
+A declaração de uma matriz é muito semelhante à declaração de um vetor, porque um
+vetor é uma matriz de dimensão 1. Delimitadas entre colchetes, temos duas declarações de
+tipo, associadas aos índices, separadas por uma vírgula. A convenção diz que o primeiro
+índice identifica uma linha de uma matriz bidimensional, e o segundo, uma coluna.
+
+```
+Var
+    Vendas : vetor [l..n,l..n] de inteiros
+```
+
+Usando esta declaração, a referência ao elemento da linha 4, coluna 5, da matriz seria:
+```
+Vendas [4,5]
+```
+
+Em C# declara-se da seguinte forma:
+```
+int[,] matriz2D = new int[4, 2];
+
+int[,,] matriz3D = new int[4, 2, 3];
+```
+
+
+### 6.3.2 Operações
+
+Da mesma forma que são realizadas operações com os elementos de um vetor, igualmente, são feitas com os elementos de uma matriz.
+
+EXEMPLO 6.6
+Dada uma matriz de 6 linhas e 2 colunas de inteiros (Figura 6.10), calcular e exibir a
+média geométrica dos valores de cada uma das linhas. A média geométrica é calculada
+pela seguinte expressão: SORT (X1 * X2), que representa a raiz quadrada do resultado da
+multiplicação dos elementos da coluna 1 (X1) pelos elementos da coluna 2 (X2).
+
+**Pseudocódigo**
+
+![Alt text](image-5.png)
+![Alt text](image-6.png)
+
+**Fluxograma**
+
+![Alt text](image-7.png)
+
+**C#**
+
+```
+int[,] G = new int[6, 2];
+double prod;
+string num;
+
+try
+{
+    for (int i = 0; i < 6; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            Console.WriteLine($"Informar o Valor para G {i}, {j} (separados por espaço):");
+
+            string input = Console.ReadLine();
+
+            string[] valores = input.Split(' ');
+
+           // G[i,j] = int.Parse(Console.ReadLine() );
+
+            if (valores.Length != 2)
+            {
+                Console.WriteLine("\"Entrada Inválida, Digite exatamente dois valores separados por espaço");
+                i--;
+                continue;
+
+            }
+
+            if (int.TryParse(valores[0], out int valor1) && int.TryParse(valores[1], out int valor2))
+            {
+                G[i, 0] = valor1;
+                G[i, 1] = valor2;
+            }
+            
+            else
+            {
+                Console.WriteLine("Entrada Inválida, Digite dois número inteiro");
+                i--;
+            }
+        }
+    }
+
+    for(int i = 0; i < 6; i++)
+    {
+        prod = 1;
+        for (int j = 0;j < 2; j++)
+        {
+            prod = prod * G[i,j];        }
+
+        Console.WriteLine($"Linha {i}: {Math.Sqrt(prod)}");
+    }
+
+}
+catch (Exception e)
+{
+    Console.WriteLine("Ocorreu um erro durante a leitura!");
+}
+```
+
+## 6.4 Exercícios para fixação
+
+
