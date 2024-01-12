@@ -219,6 +219,117 @@ constituiría um erro.
 ![Alt text](image-4.png)
 
 **C#**
-Arquivo de funções.
+
+Cap7\Funcoes
+
+## 7.4 Escopo de Variáveis
+
+Variáveis locais: podem ser empregadas somente no escopo do algoritmo no qual foram declaradas.
+
+Variáveis globais: quando declaradas no algoritmo principal podem ser utilizadas por todos os algoritmos hierarquicamente inferiores.
+
+## 7.5 Parâmetros
+
+São variáveis que podem ser transferidos do algoritmo principal a um módulo (função ou procedimento) para o qual está sendo chamado, de modo que funcionam como comunicadores entre os módulos.
+
+### 7.5.1 Parâmetros Formais
+
+*São declarados nos módulos* e tratados como as variáveis, tendo a função de receber os valores passados do algoritmo que o chama e, então, informa os calores que substituirão esses parâmetros. No exemplo a seguir, as variáveis A e B são parâmetros formais.
+
+**Pseudocódigo:**
+
+```
+1. Procedimento Multiplica(A, B : reais)
+2.      Var Res: real
+3. Início
+4.      Res <- (A * B)
+5.      Mostrar (Res)
+6. Fim.
+```
+
+**Fluxograma:**
+
+![Alt text](image-5.png)
+
+**C#**
+```
+static void multiplicar (double a, double b)
+{
+    double res;
+    res = a * b;
+    Console.WriteLine($"Resultado = {res}");
+}
+```
+
+### 7.5.2 Parâmetros reais
+
+Valores passados pela rotina que chama o módulo (função ou procedimento), substituindo os parâmetros formais.
+
+No Exemplo abaixo, os parâmetros
+formais A e B do procedimento Multiplicar serão substituídos pelos valores fornecidos
+para as variáveis Numl e Num2 do algoritmo principal.
+
+**Pseudocódigo**
+
+```
+1. Algoritmo Exemplo7_4
+2.      Procedimento Multiplicar (A, B: real)
+3.      Var Res : real
+4. Início
+5.      Res «- A * B
+6.      Mostrar (Res)
+7. Fim Multiplicar.
+8. Var
+9.      Numl, Num2 : real
+10. Início
+11.     Ler (Numl, Num2 )
+12.     Multiplicar (Numl, Num2)
+13. Fim.
+```
+
+**Fluxograma**
+
+![Alt text](image-6.png)
+
+**C#**
+
+```
+int num1, num2;
+
+Console.WriteLine("Digite o 1º número:");
+num1 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite o 2º número:");
+num2 = int.Parse(Console.ReadLine());
+
+Multiplicar(num1, num2);
+
+static void Multiplicar(int a, int b)
+{
+    int res;
+    res = a * b;
+    Console.WriteLine($"O resultado é = {res}");
+}
+```
+
+Os parâmetros formais são declarados no procedimento ou na função, e, no nosso exemplo, o valor do parâmetro real numl será passado para o
+parâmetro formal a e o valor do parâmetro real num2 será passado para o parâmetro formal b.
+
+## 7.6 Passagem de Parâmetros
+
+É a substituição dos parâmetros formais pelos parâmetros reais, quando argumentos, que nada mais são que valores constantes ou variáveis, informados no módlo chamador ou principal, devem ser fornecidos, na mesma ordem dos parâmetros, sendo que eles podem ser passados por valor ou por referência.
+
+Napassagem deparâmetrospor valor, o valor do parâmetro real é copiado para o parâmetro formal do módulo, preservando assim seu valor original, como foi feito no exemplo anterior.
+
+Napassagem deparâmetrosporreferência, toda alteração feita nos parâmetros formais reflete-se nos parâmetros reais, e, desta forma, o parâmetro é de entrada e saída.
+
+## 7.7 Eercícios para fixação
+
+
+
+
+
+
+
 
 
