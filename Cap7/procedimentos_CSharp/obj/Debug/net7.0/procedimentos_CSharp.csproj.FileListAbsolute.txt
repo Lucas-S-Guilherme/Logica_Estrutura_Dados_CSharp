@@ -1,0 +1,15 @@
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\bin\Debug\net7.0\procedimentos_CSharp.exe
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\bin\Debug\net7.0\procedimentos_CSharp.deps.json
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\bin\Debug\net7.0\procedimentos_CSharp.runtimeconfig.json
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\bin\Debug\net7.0\procedimentos_CSharp.dll
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\bin\Debug\net7.0\procedimentos_CSharp.pdb
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\obj\Debug\net7.0\procedimentos_CSharp.csproj.AssemblyReference.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\obj\Debug\net7.0\procedimentos_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\obj\Debug\net7.0\procedimentos_CSharp.AssemblyInfoInputs.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\obj\Debug\net7.0\procedimentos_CSharp.AssemblyInfo.cs
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\obj\Debug\net7.0\procedimentos_CSharp.csproj.CoreCompileInputs.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\obj\Debug\net7.0\procedimentos_CSharp.dll
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\obj\Debug\net7.0\refint\procedimentos_CSharp.dll
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\obj\Debug\net7.0\procedimentos_CSharp.pdb
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\obj\Debug\net7.0\procedimentos_CSharp.genruntimeconfig.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\procedimentos_CSharp\obj\Debug\net7.0\ref\procedimentos_CSharp.dll
