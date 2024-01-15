@@ -1,0 +1,15 @@
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\bin\Debug\net7.0\Funcoes.exe
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\bin\Debug\net7.0\Funcoes.deps.json
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\bin\Debug\net7.0\Funcoes.runtimeconfig.json
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\bin\Debug\net7.0\Funcoes.dll
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\bin\Debug\net7.0\Funcoes.pdb
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\obj\Debug\net7.0\Funcoes.csproj.AssemblyReference.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\obj\Debug\net7.0\Funcoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\obj\Debug\net7.0\Funcoes.AssemblyInfoInputs.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\obj\Debug\net7.0\Funcoes.AssemblyInfo.cs
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\obj\Debug\net7.0\Funcoes.csproj.CoreCompileInputs.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\obj\Debug\net7.0\Funcoes.dll
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\obj\Debug\net7.0\refint\Funcoes.dll
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\obj\Debug\net7.0\Funcoes.pdb
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\obj\Debug\net7.0\Funcoes.genruntimeconfig.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap7\Funcoes\obj\Debug\net7.0\ref\Funcoes.dll
