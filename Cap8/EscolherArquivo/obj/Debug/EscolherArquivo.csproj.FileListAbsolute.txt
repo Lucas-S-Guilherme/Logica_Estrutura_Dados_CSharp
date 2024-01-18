@@ -1,0 +1,11 @@
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap8\EscolherArquivo\obj\Debug\EscolherArquivo.csproj.AssemblyReference.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap8\EscolherArquivo\obj\Debug\EscolherArquivo.csproj.SuggestedBindingRedirects.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap8\EscolherArquivo\obj\Debug\EscolherArquivo.Form1.resources
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap8\EscolherArquivo\obj\Debug\EscolherArquivo.Properties.Resources.resources
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap8\EscolherArquivo\obj\Debug\EscolherArquivo.csproj.GenerateResource.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap8\EscolherArquivo\obj\Debug\EscolherArquivo.csproj.CoreCompileInputs.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap8\EscolherArquivo\bin\Debug\EscolherArquivo.exe.config
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap8\EscolherArquivo\bin\Debug\EscolherArquivo.exe
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap8\EscolherArquivo\bin\Debug\EscolherArquivo.pdb
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap8\EscolherArquivo\obj\Debug\EscolherArquivo.exe
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap8\EscolherArquivo\obj\Debug\EscolherArquivo.pdb

@@ -125,7 +125,7 @@ RegAgenda que possui como atributos: nome, end e tel. Esta forma de representaç
 é necessária, uma vez que C# trabalha orientado a objetos. Assim, cada entrada em
 RegAgenda corresponde a um novo registro e refere-se a um novo objeto da classe,
 que possui características próprias, isto é, um nome, um endereço e um telefone que o
-distinga dos demais objetos existentes.
+distinga dos demais objetos existentes. Para exibir os atributos de cada novo objeto instanciado, criaram-se os métodos mostraNome(), mostraEnd() e mostraTel(), que retornam os valores dos atributos.
 
 
 ```
@@ -158,3 +158,4 @@ public class RegAgenda
     }
 }
 ```
+
