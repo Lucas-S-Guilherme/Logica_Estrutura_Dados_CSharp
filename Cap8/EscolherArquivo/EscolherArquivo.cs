@@ -21,15 +21,12 @@ namespace EscolherArquivo
             if (result == DialogResult.OK)
             {
                 caminhoDoArquivo = openFileDialog.FileName;
-
                 return caminhoDoArquivo;
             }
             else
             {
                 return caminhoDoArquivo;
-            }
-
-            
+            }          
 
         }
     }
