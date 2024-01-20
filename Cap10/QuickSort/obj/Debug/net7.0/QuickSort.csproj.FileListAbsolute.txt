@@ -1,0 +1,15 @@
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\bin\Debug\net7.0\QuickSort.exe
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\bin\Debug\net7.0\QuickSort.deps.json
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\bin\Debug\net7.0\QuickSort.runtimeconfig.json
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\bin\Debug\net7.0\QuickSort.dll
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\bin\Debug\net7.0\QuickSort.pdb
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\obj\Debug\net7.0\QuickSort.csproj.AssemblyReference.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\obj\Debug\net7.0\QuickSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\obj\Debug\net7.0\QuickSort.AssemblyInfoInputs.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\obj\Debug\net7.0\QuickSort.AssemblyInfo.cs
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\obj\Debug\net7.0\QuickSort.csproj.CoreCompileInputs.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\obj\Debug\net7.0\QuickSort.dll
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\obj\Debug\net7.0\refint\QuickSort.dll
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\obj\Debug\net7.0\QuickSort.pdb
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\obj\Debug\net7.0\QuickSort.genruntimeconfig.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\QuickSort\obj\Debug\net7.0\ref\QuickSort.dll

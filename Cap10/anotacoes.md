@@ -143,3 +143,71 @@ Algoritmo segundo o método Quicksort para ordenação de um vetor de números i
 26. Fim Particao.
 ```
 
+O primeiro pivô é sempre o primeiro elemento do vetor[0].
+
+**Código em C# no diretório \QuickSort**
+
+### Ordenação por intercalação - MERGESORT
+
+O Mergesort também utiliza o paradigma “dividir para conquistar”, “dividindo” o conjunto de dados em subconjuntos com a metade do tamanho, por meio de um processo recursivo, até que cada vetor tenha apenas um elemento, intercalando-os, posteriormente,
+de forma ordenada (conquista), obtendo o resultado final.
+
+Vamos considerar o vetor v:
+![Alt text](image-8.png)
+
+Aplicando a primeira divisão do conjunto (inicio + fim / 2), temos, 0 + 7 / 2 = 3
+(considerando apenas o resultado inteiro da divisão).
+
+![Alt text](image-9.png)
+
+**EXEMPLO 10.4**
+Método Mergesort para ordenação de um vetor de números inteiros.
+
+**Pseudocódigo**
+```
+1. Procedimento Merge (a: vetor[0..n] de inteiros, inicio, meio, fim: inteiro)
+2. Var
+3.      n, b[n], i1, i2, j: inteiro
+4. Início
+5.      j <- o
+6.      n <- fim - inicio + 1
+7.      i1 <- inicio
+8.      i2 <- meio + 1
+9.      Enquanto (i1 <= meio .e. i2 <= fim) faça
+10.         Se (a[i1] < a[i2]) então
+11.             b[j] - a[i1]
+12.             i1 - i1 + 1
+13.         Senão
+14.             b[j] <- a[i2]
+15.             i2 <- i2 + 1
+16.         Fim-Se
+17.         j <- j + 1
+18.     Fim-Enquanto
+19.     Enquanto (i1 <= meio) faça
+20.         b[j] <- a[i1]
+21.         i1 <- i1 + 1
+22.         j <- j + 1
+23.     Fim-Enquanto
+24.     Enquanto (i2 <= fim) faça
+25.         b[j] <- a[i2]
+26.         i2 <- i2 + 1
+27.         j <- j + 1
+28.     Fim-Enquanto
+29.     Para (j de 0 até n - 1 passo +1) faça
+30.         a[inicio + j] <- b[j]
+31.     Fim-Para
+32. Fim Merge.
+33. ProcedimentoMergesort(a: vetor [0. .n] de inteiros, inicio, fim: inteiro)
+34. Var
+35.     meio: inteiro
+36. Início
+37.     Se (inicio = fim) então
+38.         Retornar
+39.     Fim-Se
+40.     meio <- (inicio + fim) / 2
+41.     MergeSort(a, inicio, meio)
+42.     MergeSort(a, meio + 1, fim)
+43.     Merge(a, inicio, meio, fim)
+44. Fim MergeSort.
+```
+
