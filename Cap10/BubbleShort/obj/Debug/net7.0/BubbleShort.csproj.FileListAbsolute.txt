@@ -1,0 +1,15 @@
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\bin\Debug\net7.0\BubbleShort.exe
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\bin\Debug\net7.0\BubbleShort.deps.json
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\bin\Debug\net7.0\BubbleShort.runtimeconfig.json
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\bin\Debug\net7.0\BubbleShort.dll
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\bin\Debug\net7.0\BubbleShort.pdb
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\obj\Debug\net7.0\BubbleShort.csproj.AssemblyReference.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\obj\Debug\net7.0\BubbleShort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\obj\Debug\net7.0\BubbleShort.AssemblyInfoInputs.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\obj\Debug\net7.0\BubbleShort.AssemblyInfo.cs
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\obj\Debug\net7.0\BubbleShort.csproj.CoreCompileInputs.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\obj\Debug\net7.0\BubbleShort.dll
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\obj\Debug\net7.0\refint\BubbleShort.dll
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\obj\Debug\net7.0\BubbleShort.pdb
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\obj\Debug\net7.0\BubbleShort.genruntimeconfig.cache
+C:\Code\C#\Resumo Livro Lógica de Programação e Estrutura de dados - Sandra Puga\Cap10\BubbleShort\obj\Debug\net7.0\ref\BubbleShort.dll
