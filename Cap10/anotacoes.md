@@ -147,7 +147,174 @@ O primeiro pivô é sempre o primeiro elemento do vetor[0].
 
 **Código em C# no diretório \QuickSort**
 
-### Ordenação por intercalação - MERGESORT
+**Análise do código:**
+
+O algoritmo começa rodando o método QuickSort com:
+QuickSort(primeiro, ultimo, vetor);
+QuickSort(0, 7, { 25, 57, 48, 37, 12, 92, 86, 33 });
+
+A síntese da função verifica if (primeiro < ultimo)
+então
+{
+x = Particao}
+
+Vamos à resolução de Particao:
+
+int[] num = { 25, 57, 48, 37, 12, 92, 86, 33 }; 
+
+rodada do algoritmo Particao, com valores:
+j = 7;
+aux, pivo.
+pivo = 25;
+
+// 1ª iteração for 7 >= 0 // true
+
+if (33 >= 25) //true
+{
+    aux = v7(33);
+    v.j[v7] = 33;
+    v.i[v7] = 33
+    j[7]--;  // passa a ser j[6]
+}
+i[7]--; //passa a ser i[6]
+
+//2ª iteração for 6 >= 0 // true
+
+if (86 >= 25) // true
+{
+    aux = 86;
+    v.j[v6] = 86;
+    v.i[86] = 86;
+    j[6]-- // passa a ser j[5]
+}
+i[6]-- //  passa a ser i[5]
+
+// 3ª iteração for 5 >= 0
+if
+vetor [5] >= vetor[0]
+92 >= 25 // True
+{
+    aux = 92;
+    92 = 92;
+    vetor [5] = 92;
+    j[5]--; // passa ser j[4]
+}
+i[5]-- // agora i[4]
+
+
+// 4ª iteração for 4>= 0
+
+vetor[4] >= 25
+if (12 >= 25) // false
+{
+    não executa
+    j nao decrementou, ainda é j[4]
+}
+i[4]--// agora i[3]
+
+//5ª iteração for 3 >=0
+v[i[3]] >= v[0]
+37 >= 25 // true
+{
+aux = vetor[j[4]]// aux = 12
+vetor[j[4]] = vetor[i[3]] // v.[j4] = 37;
+v[i[3]] = 12;
+
+j[4]--; // agora j3
+
+novo array, aqui:
+num = { 25, 57, 48, 12, 37, 92, 86, 33 }
+}
+
+
+i[3]--; agora i[2]
+
+// 6ª iteração for 2 >= 0
+
+if (48 >= 25) //true
+{
+    aux = 12;
+    v[j[3]] = v[i[2]] // v3 = 48
+    v.i[2] = 12;
+    j[3]--; // agora j[2]
+
+novo array, aqui:
+num = { 25, 57, 12, 48, 37, 92, 86, 33 }
+}
+i[2]--; // passa a ser i[1]
+
+
+// 7ª iteração for 1 >=0 // true
+
+if ( 57 >= 0)
+{
+    aux = 12;
+    vj[2] = vi[1] //57
+    vi[1] = 12
+    j[2]--; //agora j[1]
+
+novo array num = { 25, 12, 57, 48, 37, 92, 86, 33 }
+}
+i[1]--; // i[0]
+
+// 8ª iteração for 0 >= 0 // true
+
+if (25 >= 25)
+{
+    aux = vj[1] //12
+    vj[1] = vi[0]//25
+    vi[0] = aux // 12
+    j[1]--; // agora j[0]
+
+// novo array num = { 12, 25, 57, 48, 37, 92, 86, 33 }
+}
+i[0]--; // i[-1]
+
+9ª iteração for -1 >= 0 // false
+
+Função retorna j + 1 ; // j1[1]
+
+**AGORA VOLTA PARA O MÉTODO QUICKSORT**
+
+O método segue para a linha; 
+QuickSort (primeiro, x - 1, vetor)
+
+novo vetor organizado pelo método particao
+num = { 12, 25, 57, 48, 37, 92, 86, 33 }
+
+if (primeiro < ultimo)// if (12 < 33) // true
+{
+x = Particao(primeiro, ultimo, vetor) // x = 1;
+
+QuickSort(primeiro, x - 1, vetor);
+QuickSort(0, 1 - 1, vetor) // 
+
+QuickSort(x + 1, ultimo, vetor)
+QuickSort(1 + 1, 0, vetor)
+}
+
+O método passa então chama novamente QuickSort, que começa novamente pela atribuição do valor resultante do Método Particao, o que fará com que seja reordenado.
+Atenção que dessa vez os valores passados são diferentes.
+
+**Voltando ao Método Particao**
+
+QuickSort(primeiro, ultimo, vetor);
+QuickSort(0, 1 - 1, vetor) // o método passa esses valores
+
+Particão é executado com:
+Particao (0, 0, vetor); // o que faz com que o método para na verificação for, sem realizar mudanças
+
+
+
+
+
+
+
+
+
+
+
+### 10.3.2 Ordenação por intercalação - MERGESORT
 
 O Mergesort também utiliza o paradigma “dividir para conquistar”, “dividindo” o conjunto de dados em subconjuntos com a metade do tamanho, por meio de um processo recursivo, até que cada vetor tenha apenas um elemento, intercalando-os, posteriormente,
 de forma ordenada (conquista), obtendo o resultado final.
@@ -176,7 +343,7 @@ Método Mergesort para ordenação de um vetor de números inteiros.
 9.      Enquanto (i1 <= meio .e. i2 <= fim) faça
 10.         Se (a[i1] < a[i2]) então
 11.             b[j] - a[i1]
-12.             i1 - i1 + 1
+12.             i1 <- i1 + 1
 13.         Senão
 14.             b[j] <- a[i2]
 15.             i2 <- i2 + 1
@@ -210,4 +377,6 @@ Método Mergesort para ordenação de um vetor de números inteiros.
 43.     Merge(a, inicio, meio, fim)
 44. Fim MergeSort.
 ```
+
+**Código em C# do MergeSort em Cap10\MergeSort**
 
